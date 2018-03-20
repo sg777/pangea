@@ -1,3 +1,5 @@
+I'm documenting everything about Pangea and Chips over the course of development here.
+
 The format of the messages which are exchanged among the entities while the game played are defined here.
 
 As defined in Pangea every entity in the game is associated with a key/value pair. When the game starts each player publishes the **init** message, which contains the player public key and the randomly shuffled deck of initial cards.
