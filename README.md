@@ -1,8 +1,11 @@
 I'm documenting everything about Pangea and Chips over the course of development here. The initial draft of BET written by jl777 is available  [here](./BET_Initial_Draft.md).
 
-The format of the messages which are exchanged among the entities while the game played are defined as follows:
 
-As defined in Pangea every entity in the game is associated with a key/value pair. When the game starts each player publishes the **init** message, which contains the player public key and the randomly shuffled deck of initial cards.
+As defined in Pangea every entity in the game is associated with a key/value pair. If a player wants to play, he choses the DCV and the table size he is interested and [joins](./player_join.md) the table.
+
+
+
+When the game starts each player publishes the **init** message, which contains the player public key and the randomly shuffled deck of initial cards.
 
 ```json
 {
