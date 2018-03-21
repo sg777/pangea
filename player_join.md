@@ -9,8 +9,8 @@ For simplicity, _**DCV**_ defines some predfined table sizes, the players choses
 
 ``` JSON
 {
-	"messageid":	"join_req",
-	"publickey":	"1460e77d5c02d00348f9f092b7806a89b2174291b9cc61ef3b22f864a3149848"
+	"method":	"join_req",
+	"pubkey":	"1460e77d5c02d00348f9f092b7806a89b2174291b9cc61ef3b22f864a3149848"
 }
 ```	
 
@@ -18,9 +18,9 @@ For simplicity, _**DCV**_ defines some predfined table sizes, the players choses
 
 ``` JSON
 {
-	"messageid":	"join_res",
-	"playerid":	1,
-	"publickey":	"d3389429b1293c1ba1f14e3970c2d6abd4463deeb55d586973cf004a2894ec3e"
+	"method":	"join_res",
+	"peerid":	1,
+	"pubkey":	"d3389429b1293c1ba1f14e3970c2d6abd4463deeb55d586973cf004a2894ec3e"
 }
 ```
 
