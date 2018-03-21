@@ -1,3 +1,5 @@
+# Pangea- Development Draft
+
 I'm documenting everything about Pangea and Chips over the course of development here. The initial draft of BET written by jl777 is available  [here](./BET_Initial_Draft.md).
 
 
