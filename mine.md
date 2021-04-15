@@ -28,6 +28,11 @@ chmod +x mine.sh
 ./mine.sh
 ```
 
+4. Stopping the miner
+```
+CTRL+C
+```
+
 ## What makes CHIPS mining profitable and sustainable
 
 Since CHIPS is the cryptocurrency used to play poker and other decentralized gaming applications developed in the future, a percentage of the gaming reward 0.01% or 0.001 CHIPS whichever is lower will be left as block mining fee and this reward will be adjustable based on the CHIPS mining fee.
