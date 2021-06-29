@@ -20,3 +20,8 @@ Below is the table that depicts the testing of the exisiting ln setup, where the
 | Node A tor ln | yes(case1) | yes(case2) |
 | Node A non-tor ln | yes(case3) | yes(case3) |
 
+## What tor brings to the bet ecosystem
+
+tor provides anonymity, meaning that CHIPS and LN nodes can be configured with onion addresses so that the identities of these nodes can be concealed. Does that mean can the CHIPS tx's can't be traceable? the answer is no. Tor can't hide the tracebaility of the tx's from address A to address B, it can only hide the end points associated with address A and address B. 
+
+Since there isn't any sign up is required to play the game and with tor, there isn't actually any association exists between the player and the node which the player is using to play the game. 
