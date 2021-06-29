@@ -18,10 +18,5 @@ Below is the table that depicts the testing of the exisiting ln setup, where the
 |  | Node B tor ln | Node B non-tor ln |
 | --------------- | --------------- | --------------- |
 | Node A tor ln | yes(case1) | yes(case2) |
-| Node A non-tor ln | no(case3) | yes(case3) |
+| Node A non-tor ln | yes(case3) | yes(case3) |
 
-Here B is the dealer and A is the player node. So from this if the dealer is on tor, then the players must be on tor, if the dealer is running non-tor ln node then the players can be any.
-
-From getinfo i can see that the tor address is bind to the local ip on the same port, for these reasons once if a tor address is already bind a port no incoming connections this tor node is allowing. For this reason in `case3` a non-tor ln node can't be able to establish the channel with tor-ln node.
-
-In `case4` when the tor-ln node is connecting to a non-tor ln node, we can see on the tor-ln side the peer is connected over ipv6 over a different port.
